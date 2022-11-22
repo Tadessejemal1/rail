@@ -1,0 +1,76 @@
+Started GET "/" for ::1 at 2022-11-22 15:53:56 +0300
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/useradd/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/railties-7.0.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/useradd/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/railties-7.0.4/lib/rails/templates/rails/welcome/index.html.erb (Duration: 4.3ms | Allocations: 634)
+Completed 200 OK in 108ms (Views: 68.8ms | ActiveRecord: 0.0ms | Allocations: 5095)
+
+
+Started GET "/" for 127.0.0.1 at 2022-11-22 15:57:59 +0300
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/useradd/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/railties-7.0.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/useradd/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/railties-7.0.4/lib/rails/templates/rails/welcome/index.html.erb (Duration: 1.9ms | Allocations: 297)
+Completed 200 OK in 14ms (Views: 12.0ms | ActiveRecord: 0.0ms | Allocations: 1018)
+
+
+Started GET "/" for 127.0.0.1 at 2022-11-22 17:07:15 +0300
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/useradd/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/railties-7.0.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/useradd/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/railties-7.0.4/lib/rails/templates/rails/welcome/index.html.erb (Duration: 3.0ms | Allocations: 526)
+Completed 200 OK in 20ms (Views: 8.4ms | ActiveRecord: 0.0ms | Allocations: 3756)
+
+
+Started GET "/" for 127.0.0.1 at 2022-11-22 17:07:20 +0300
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/useradd/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/railties-7.0.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/useradd/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/railties-7.0.4/lib/rails/templates/rails/welcome/index.html.erb (Duration: 3.3ms | Allocations: 297)
+Completed 200 OK in 8ms (Views: 6.2ms | ActiveRecord: 0.0ms | Allocations: 1018)
+
+
+Started GET "/" for 127.0.0.1 at 2022-11-22 17:08:52 +0300
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/useradd/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/railties-7.0.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/useradd/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/railties-7.0.4/lib/rails/templates/rails/welcome/index.html.erb (Duration: 1.1ms | Allocations: 16)
+Completed 200 OK in 4ms (Views: 2.9ms | ActiveRecord: 0.0ms | Allocations: 254)
+
+
+Started GET "/" for 127.0.0.1 at 2022-11-22 17:10:19 +0300
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/useradd/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/railties-7.0.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/useradd/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/railties-7.0.4/lib/rails/templates/rails/welcome/index.html.erb (Duration: 6.8ms | Allocations: 297)
+Completed 200 OK in 45ms (Views: 10.6ms | ActiveRecord: 0.0ms | Allocations: 979)
+
+
+Started GET "/pages/hello" for ::1 at 2022-11-22 17:11:04 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/pages/hello"):
+  
+Started GET "/pages/hello" for 127.0.0.1 at 2022-11-22 17:15:58 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/pages/hello"):
+  
+Started PUT "/__web_console/repl_sessions/74c4df641eaa22eee288a22065010bf8" for 127.0.0.1 at 2022-11-22 17:16:18 +0300
+Started PUT "/__web_console/repl_sessions/74c4df641eaa22eee288a22065010bf8" for 127.0.0.1 at 2022-11-22 17:16:21 +0300
+Started GET "/pages/hello" for 127.0.0.1 at 2022-11-22 17:16:48 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/pages/hello"):
+  
+Started GET "/pages/hello" for ::1 at 2022-11-22 17:17:58 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/pages/hello"):
+  
+Started GET "/" for 127.0.0.1 at 2022-11-22 17:27:21 +0300
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/useradd/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/railties-7.0.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/useradd/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/railties-7.0.4/lib/rails/templates/rails/welcome/index.html.erb (Duration: 2.9ms | Allocations: 526)
+Completed 200 OK in 18ms (Views: 6.7ms | ActiveRecord: 0.0ms | Allocations: 3771)
+
+
+Started GET "/pages/hello" for 127.0.0.1 at 2022-11-22 17:27:29 +0300
+Processing by PagesController#hello as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/hello.html.erb within layouts/application
+  Rendered pages/hello.html.erb within layouts/application (Duration: 1.1ms | Allocations: 150)
+  Rendered layout layouts/application.html.erb (Duration: 1668.8ms | Allocations: 91612)
+Completed 200 OK in 1674ms (Views: 1672.3ms | ActiveRecord: 0.0ms | Allocations: 92661)
+
+
